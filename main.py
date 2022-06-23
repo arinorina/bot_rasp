@@ -10,7 +10,6 @@ conn = psycopg2.connect(database="schedule_db1",
 
 cursor = conn.cursor()
 
-token = '2066648820:AAEMxXI_mujS6gpZms2HaFxI6z78YzuXy1Q'
 bot = telebot.TeleBot(token)
 
 day_list = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
